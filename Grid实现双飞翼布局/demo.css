@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+body{
+   display: grid;
+   grid: auto / 150px 1fr 180px;
+}
+header,
+footer{
+    background: #ffa500;
+    grid-column-end: span 4;
+    height: 90px;
+}
+main{
+    background: #f5c531;
+    height: 300px;
+}
+nav{
+    background: #a0c263;
+}
+aside{
+    background: #a0c263;
+}
