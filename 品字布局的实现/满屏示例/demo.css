@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    border: 0;
+}
+.wrap{
+    position: fixed;    
+    /* 固定布局 */
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+/* 设置包裹的父元素的高度比例 */
+.wrapper-up{
+    height: 50%;
+}
+.wrapper-down{
+    height: 50%;
+    position: relative;
+}
+.up{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #55d4eb;
+    height: 100%;
+    box-sizing: border-box;
+}
+.left{
+    position: absolute;
+    left: 0;
+    /* 靠左 */
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #a0c263;
+}
+.right{
+    position: absolute;
+    right: 0;
+    /* 靠右 */
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #ffa500;
+}

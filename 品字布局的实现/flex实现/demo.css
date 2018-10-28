@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    border: 0;
+}
+html,
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.up{
+    flex: 1;
+    background-color: #55d4eb;
+}
+.wrapper-down{
+    flex: 1;
+    display: flex;
+}
+.left{
+    flex: 1;
+    background-color: #a0c263;
+}
+.right{
+    flex: 1;
+    background-color: #ffa500;
+}
